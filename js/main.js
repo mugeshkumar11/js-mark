@@ -50,8 +50,7 @@ let totalSub = function(){
 
           
              let totalEle = parseInt(tamilEle.value)+parseInt(englishEle.value)+parseInt(mathsEle.value)+parseInt(scienceEle.value)+parseInt(socialEle.value);
-             console.log(totalEle);
-             
+
              cell8.innerText = totalEle;
              let easy = totalEle/5;
              cell9.innerText = easy;
@@ -71,32 +70,4 @@ let totalSub = function(){
    }
 
 }
-
-
-/*
-function totalList(){
- 
-
-  let total = (totalMarks/5)*100
-  cell9.innerText.value = total.value;
-  total.value = "";
-  /*
- tamilEle.value = cell1.innerText;
- englishEle.value = cell2.innerText;
- mathsEle.value = cell3.innerText;
- scienceEle.value = cell4.innerText;
-  socialEle.value = cell5.innerText;
-
-  
-  
-
-}
-
-
-addEle.addEventListener("click",function(){
-
- totalList()
-})
-
-*/
 
